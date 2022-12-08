@@ -3213,6 +3213,7 @@ html[xmlns] .slider-wrap {
 
 	.header-row {
 		position: initial;
+		flex-wrap: nowrap;
 	}
 
 	#header.transparent-header,

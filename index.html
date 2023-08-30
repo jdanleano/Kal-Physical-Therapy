@@ -64,7 +64,6 @@
                         <nav class="primary-menu order-lg-3 col-lg-5 px-0" style="position:inherit;">
                             <ul class="menu-container justify-content-lg-end">
 								<li class="menu-item"><a class="menu-link" href="faq.html"><div>FAQ</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="scheduling.html"><div>Scheduling</div></a></li>
 								<li class="menu-item"><a class="menu-link" href="contact.html"><div>Contact Me</div></a></li>
 							</ul>
 						</nav><!-- #primary-menu end -->
@@ -151,7 +150,7 @@
 					</div>
 					<div id="booking-appointment-form" class="col-lg-7 p-0">
 						<div class="bg-color form-widget col-padding" data-loader="button">
-							<h2>Book an Appointment.</h2>
+							<h2>Send us an Email.</h2>
 							<div class="form-result"></div>
 							<form class="row mb-0" id="template-medical-form" name="template-medical-form" action="include/form.php" method="post">
 								<div class="form-process">
@@ -180,19 +179,8 @@
 								<div class="col-md-5">
 									<div class="row">
 										<div class="col-12 form-group">
-											<label for="template-medical-appoint-date">Appointment Date:</label>
-											<input type="text" id="template-medical-appoint-date" name="template-medical-appoint-date" class="form-control not-dark required" value="" placeholder="DD/MM/YYYY">
-										</div>
-										<div class="col-12 form-group">
-											<label for="template-medical-second-booking">Booked with us Before?</label><br>
-											<label class="rightmargin-sm">
-												<input type="radio" id="template-medical-second-booking" name="template-medical-second-booking" value="yes">
-												Yes
-											</label>
-											<label>
-												<input type="radio" name="template-medical-second-booking" value="no" checked>
-												No
-											</label>
+											<label for="template-medical-appoint-date">Subject:</label>
+											<input type="text" id="template-medical-appoint-date" name="template-medical-appoint-date" class="form-control not-dark required" value="">
 										</div>
 									</div>
 								</div>
@@ -205,7 +193,7 @@
 									<input type="text" name="template-medical-botcheck" value="" />
 								</div>
 								<div class="col-12 form-group text-end">
-									<button class="button button-white button-light button-rounded m-0" type="submit" value="submit">Confirm Booking</button>
+									<button class="button button-white button-light button-rounded m-0" type="submit" value="submit">Send Email</button>
 								</div>
 								<input type="hidden" name="prefix" value="template-medical-">
 							</form>

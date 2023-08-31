@@ -151,33 +151,22 @@
 					<div id="booking-appointment-form" class="col-lg-7 p-0">
 						<div class="bg-color form-widget col-padding" data-loader="button">
 							<h2>Send us an Email.</h2>
+							<h5>Please include your name and phone number in the message field.</h5>
 							<div class="form-result"></div>
-							<form class="row mb-0" id="template-medical-form" name="template-medical-form" action="include/form.php" method="post">
+							<form class="row mb-0" id="template-medical-form" name="template-medical-form" action="https://formspree.io/f/xpzgrwvg" method="post">
 								<div class="form-process">
 									<div class="css3-spinner">
 										<div class="css3-spinner-scaler"></div>
 									</div>
 								</div>
-								<div class="col-md-8 form-group">
-									<label for="template-medical-name">Name:</label>
-									<input type="text" id="template-medical-name" name="template-medical-name" class="form-control not-dark required" value="">
-								</div>
-								<div class="col-md-4 form-group">
-									<label for="template-medical-phone">Phone:</label>
-									<input type="text" id="template-medical-phone" name="template-medical-phone" class="form-control not-dark required" value="">
-								</div>
 								<div class="w-100"></div>
 								<div class="col-md-8 form-group">
 									<label for="template-medical-email">Email Address:</label>
-									<input type="email" id="template-medical-email" name="template-medical-email" class="form-control not-dark required" value="">
-								</div>
-								<div class="col-md-4 form-group">
-									<label for="template-medical-appoint-date">Subject:</label>
-									<input type="text" id="template-medical-appoint-date" name="template-medical-appoint-date" class="form-control not-dark required" value="">
+									<input type="email" id="template-medical-email" name="template-medical-email email" class="form-control not-dark required" value="">
 								</div>
 								<div class="col-md-12 form-group">
 									<label for="template-medical-message">Message:</label>
-									<textarea id="template-medical-message" name="template-medical-message" class="form-control not-dark required" cols="30" rows="5"></textarea>
+									<textarea id="template-medical-message" name="template-medical-message message" class="form-control not-dark required" cols="30" rows="5"></textarea>
 								</div>
 								<div class="w-100"></div>
 								<div class="col-12 form-group d-none">
@@ -186,7 +175,6 @@
 								<div class="col-12 form-group text-end">
 									<button class="button button-white button-light button-rounded m-0" type="submit" value="submit">Send Email</button>
 								</div>
-								<input type="hidden" name="prefix" value="template-medical-">
 							</form>
 
 						</div>
@@ -215,7 +203,7 @@
 									<div class="col-lg-12">
 										<div class="footer-big-contacts">
 											<span>Contact:</span>
-											(347) 467 2386
+											(347) 461 2386
 										</div>
 									</div>
 
